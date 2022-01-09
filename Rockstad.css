@@ -2,7 +2,14 @@
     font-family: Poppins;
     font-size: 16px;
 }
-.button{
+button{
     background-color:#B8FD3F;
-    font-weight: bolder;
+    padding: 20px 60px;
+    border: 3px solid #B8FD3F;
+    font-family: Poppins;
+    border-radius: 10px;
+}
+button:hover{
+    background-color:#ECFDD0;
+    border: 3px solid #B8FD3F;
 }
