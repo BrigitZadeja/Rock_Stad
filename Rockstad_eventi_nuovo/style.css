@@ -1,0 +1,130 @@
+body {
+    background: white;
+}
+.menubar {
+    background-color: #DCDDDA;
+}
+.nav-link {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: #818776;
+}
+
+.navbar-nav li {
+    margin-right: 100px;
+
+
+}
+
+.navbar-brand img {
+    height: 53px;
+    width: 105px;
+    margin-left: 50px;
+}
+
+.menubar .navbar-toggler {
+    padding-right: 20px;
+    outline: none!important;
+    border: none!important;
+}
+
+.navbar .fa {
+    color: #ffffff;
+    font-size: 26px;
+}
+
+.nav-link:hover {
+    font-weight: 600;
+    color: black;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Poppins;
+}
+.box-map {
+    display: flex;
+    height: 20%;
+    background-image: url("CartText.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#testo-mappa{
+     font-family: Poppins;
+     font-size: 20px;
+     width: 40%;
+     height: 40%;
+     position: relative;
+     margin-top: 10%;
+     margin-right: 15%;
+ }
+
+#imm-mappa{
+    margin-left: 10%;
+    width: 60%;
+    height: 50%;
+}
+
+.box {
+    display: flex;
+    height: 20%;
+    margin-top: 10%;
+}
+
+#background{
+    position: relative;
+    background-image: url("trattini.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    width: 100%;
+    height: 100%;
+}
+
+.testo-box {
+    font-family: Poppins;
+    font-size: 17px;
+    width: 40%;
+    height: 70%;
+    position: relative;
+    margin-top: 5%;
+    margin-right: 5%;
+}
+
+.immagine-box {
+    width: 60%;
+    height: 70%;
+    margin-left: -20px;
+}
+
+#testo-sx {
+    font-family: Poppins;
+    font-size: 17px;
+    width: 40%;
+    height: 70%;
+    position: relative;
+    margin-top: 5%;
+    margin-left: 5%;
+
+}
+#imm-dx {
+    text-align: right;
+    width: 60%;
+    height: 70%;
+    margin-right: -50px;
+}
+
+.icon {
+    margin-left: 15%;
+    color: black;
+    margin-top: 10%;
+}
