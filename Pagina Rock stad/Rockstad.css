@@ -13,7 +13,7 @@
 .nav-link {
     font-style: normal;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 24px;
     /* identical to box height */
 
@@ -26,10 +26,21 @@
 }
 
 .navbar-nav li {
-    margin-right: 100px;
-
-
+    margin-right: 3em;
 }
+
+@media (min-width: 1440px){
+    .navbar li {
+        margin-right : 7em;
+    }
+}
+
+@media (max-width: 1009px){
+    .navbar li {
+        margin-right : 1em;
+    }
+}
+
 
 .navbar-brand img {
     height: 53px;
@@ -50,7 +61,22 @@
 
 .nav-link:hover {
     font-weight: 600;
-    color: black;
+    color: #24271E;
+}
+
+.nav-link:active {
+    font-weight: 600;
+    color: #24271E;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Poppins;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
 }
 
 /*body*/
